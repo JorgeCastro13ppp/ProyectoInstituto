@@ -1,0 +1,33 @@
+// src/styles/custom-styles.scss
+
+// Importar las variables de color
+@import 'variables';
+
+// Estilos personalizados para el login y registro
+.login-page,
+.register-page {
+  background-color: $fondo-oscuro;
+  color: $letras-blancas;
+}
+
+/* Estilos para redondear los botones */
+.btn {
+  border-radius: 20px;/* Ajusta el valor según el grado de redondeo deseado */
+  margin: 5px;
+}
+
+/* Estilos para separación y centrado de los botones */
+.button-container {
+  text-align: center; /* Centrar los botones horizontalmente */
+}
+
+body {
+  background-color: $fondo-oscuro;
+}
+
+.login-button,
+.register-button {
+  background-color: $boton-morado;
+  color: $letras-blancas;
+  border-color: $boton-morado;
+}

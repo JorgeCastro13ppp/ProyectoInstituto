@@ -1,0 +1,33 @@
+<!-- <button`) están estilizados con la clase `btn btn-primary` para darles un aspecto visual atractivo.
+
+### Integración con Angular:
+
+Para integrar estos formularios HTML dentro de tus componentes Angular (`login.component.html` y `register.component.html`), simplemente copia y pega el código correspondiente en cada archivo.
+
+Por ejemplo, para el componente de inicio de sesión (`login.component.html`), pega el código del formulario de inicio de sesión:
+
+```html
+login.component.html -->
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-center mb-4">Iniciar Sesión</h2>
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Nombre de Usuario</label>
+              <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
